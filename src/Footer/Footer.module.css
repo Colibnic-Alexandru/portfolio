@@ -1,0 +1,29 @@
+.footerBlock {
+    height: 280px;
+    background-color: #0e2c3f
+}
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: floralwhite;
+}
+
+.footer {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 60px;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: darkred;
+}
