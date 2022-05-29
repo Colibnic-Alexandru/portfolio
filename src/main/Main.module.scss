@@ -1,0 +1,17 @@
+@import './../common/styles/sass/mixins.scss';
+@import "./../common/styles/sass/variables.scss";
+
+.mainBlock {
+  height: 100vh;
+  background-color: $bgColor;
+
+  .text {
+    @include text($fontFamily, 16px, 1.2);
+    width: 300px;
+  }
+
+  .photo {
+    width: 300px;
+    height: 400px;
+  }
+}

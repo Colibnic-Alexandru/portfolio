@@ -1,0 +1,22 @@
+@import "./../common/styles/sass/mixins.scss";
+
+.nav {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+
+  .link {
+    @include text($fontFamily, 16px, 1.8);
+    background-color: rgba(20, 211, 10, 0.4);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+  }
+}

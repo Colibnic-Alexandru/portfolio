@@ -1,0 +1,32 @@
+@import "./../common/styles/sass/mixins.scss";
+@import "./../common/styles/sass/variables.scss";
+
+.footerBlock {
+  background-color: $bgSecondColor;
+
+  .footerContainer {
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    height: 100%;
+    width: 80%;
+    flex-wrap: wrap;
+
+    .footerContacts {
+      width: 50%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      @media screen and (max-width: 1024px) {
+        width: 100%;
+        justify-content: space-between;
+      }
+
+    }
+
+    .footerEnd {
+      @include text($fontFamily, 16px, 1.8);
+      margin-bottom: 10px;
+    }
+  }
+}

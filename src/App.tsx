@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Header from "./Header/Header";
-import Main from "./Main/Main";
-import Skills from "./Skills/Skills";
-import MyWorks from "./MyWorks/MyWorks";
-import Variant from "./Variant/Variant";
-import Contacts from "./Contacts/Contacts";
-import Footer from "./Footer/Footer";
+import Header from "./header/Header";
+import Main from "./main/Main";
+import Skills from "./skills/Skills";
+import Projects from "./projects/Projects";
+import Hire from "./hire/Hire";
+import Contacts from "./contacts/Contacts";
+import Footer from "./footer/Footer";
 
 function App() {
     return (
@@ -14,8 +14,8 @@ function App() {
             <Header/>
             <Main/>
             <Skills/>
-            <MyWorks/>
-            <Variant/>
+            <Projects/>
+            <Hire/>
             <Contacts/>
             <Footer/>
         </div>

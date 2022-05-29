@@ -1,0 +1,30 @@
+@import "./../common/styles/sass/variables.scss";
+@import "./../common/styles/sass/mixins.scss";
+
+.hireBlock {
+  background-color: $bgSecondColor;
+  padding: 100px 0;
+
+  .hireContainer {
+    flex-direction: column;
+    justify-content: center;
+
+    .title {
+      @include text($fontFamily, 36px, 1.8);
+      background-color: $bgColor;
+    }
+
+    .button {
+      @include text($fontFamily, 16px, 1.8);
+      background-color: rgba(20, 211, 10, 0.4);
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      text-decoration: none;
+    }
+  }
+}
+
