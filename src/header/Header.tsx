@@ -4,11 +4,13 @@ import Nav from "../nav/Nav";
 
 const Header = () => {
     return (
-        <div className={style.header}>
-            <Nav title={'Home'}/>
-            <Nav title={'Skill'}/>
-            <Nav title={'Project'}/>
-            <Nav title={'Contact'}/>
+        <div className={style.headerContainer}>
+           <div className={style.header}>
+               <Nav title={'Home'}/>
+               <Nav title={'Skill'}/>
+               <Nav title={'Project'}/>
+               <Nav title={'Contact'}/>
+           </div>
         </div>
     );
 };
