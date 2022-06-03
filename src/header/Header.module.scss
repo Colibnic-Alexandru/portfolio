@@ -6,4 +6,7 @@
     align-items: center;
     padding: 50px 0;
     flex-wrap: wrap;
+    @media screen and (max-width: 530px) {
+        justify-content: space-around;
+    }
 }

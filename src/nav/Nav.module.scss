@@ -1,12 +1,11 @@
 @import "./../common/styles/sass/mixins.scss";
 
 .nav {
-  width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 20px;
+  margin: 15px;
 
   .link {
     @include text($fontFamily, 16px, 1.8);
